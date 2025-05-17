@@ -1,0 +1,25 @@
+.map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20px; */
+  }
+  
+  .map {
+    height: 100%;
+    width: 100%;
+    border: 2px solid #c4c2c2;
+    border-radius: 8px;
+  }
+  
+  .map-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  /* .map {
+    height: 100%;
+    width: 100%;
+  } */
+  

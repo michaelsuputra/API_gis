@@ -1,0 +1,127 @@
+.auth-container {
+  background: url('/gunung.jpeg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-left {
+  flex: 1;
+  color: white;
+  /* background: url('/gunung.jpeg') no-repeat center center; */
+  background-size: cover;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-left h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.auth-left p {
+  font-size: 16px;
+  max-width: 400px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  margin-right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.auth-right {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.113); /* Latar belakang putih transparan */
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.auth-right h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.auth-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-right input {
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.signin-btn {
+  padding: 10px;
+  background-color: #e2572e;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.signin-btn:hover {
+  background-color: #c1461e;
+}
+
+.toggle-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.toggle-text span {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 91%;
+  padding-right: 40px; /* ruang untuk ikon mata */
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 22px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-left: auto;
+}
+
